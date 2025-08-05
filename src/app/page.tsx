@@ -1,5 +1,6 @@
 
 import { Card } from "@/components/Card";
+import Gallery from "@/components/Gallery";
 import NavBar from "@/components/NavBar";
 // import PlaceForm from "@/components/PlaceForm";
 
@@ -28,24 +29,24 @@ export default function Home() {
           <Card
             title="Renderização Híbrida"
             description="SSG, SSR e ISR para otimizar performance e SEO."
-            imagemUrl="/Lua.png" />
+            imageUrl="/Lua.png" />
 
           <Card
             title="CSS Utility-First"
             description="Tailwind CSS para estilização rápida e consistente."
-            imagemUrl="/Lua.png" />
+            imageUrl="/Lua.png" />
 
           <Card
             title="TypeScript Integrado"
             description="Tipagem estática para um código mais seguro."
-            imagemUrl="/Lua.png" />
+            imageUrl="/Lua.png" />
         </div>
 
       </section>
 
-      {/* <div className="flex justify-center">
-        <PlaceForm lat={22} lng={-23}/>
-      </div> */}
+      <section className="bg-gray-100 py-12 mt-12">
+        <Gallery />
+      </section>
 
 
     </div>
