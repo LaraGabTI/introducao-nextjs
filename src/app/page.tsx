@@ -1,3 +1,4 @@
+
 import { Card } from "@/components/Card";
 import NavBar from "@/components/NavBar";
 // import PlaceForm from "@/components/PlaceForm";
@@ -27,17 +28,17 @@ export default function Home() {
           <Card
             title="Renderização Híbrida"
             description="SSG, SSR e ISR para otimizar performance e SEO."
-            icon="🚀" />
+            imagemUrl="/Lua.png" />
 
           <Card
             title="CSS Utility-First"
             description="Tailwind CSS para estilização rápida e consistente."
-            icon="🎨" />
+            imagemUrl="/Lua.png" />
 
           <Card
             title="TypeScript Integrado"
             description="Tipagem estática para um código mais seguro."
-            icon="🔒" />
+            imagemUrl="/Lua.png" />
         </div>
 
       </section>
