@@ -1,11 +1,11 @@
+//page 
 
 import { Card } from "@/components/Card";
 import Gallery from "@/components/Gallery";
 import NavBar from "@/components/NavBar";
+import UserComments from "./userComments/page";
+
 // import PlaceForm from "@/components/PlaceForm";
-
-
-
 
 export default function Home() {
   return (
@@ -48,6 +48,9 @@ export default function Home() {
         <Gallery />
       </section>
 
+      <section className="bg-white py-12">
+      <UserComments />
+    </section>
 
     </div>
   );
