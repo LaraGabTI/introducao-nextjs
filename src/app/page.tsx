@@ -49,8 +49,8 @@ export default function Home() {
       </section>
 
       <section className="bg-white py-12">
-      <UserComments />
-    </section>
+        <UserComments />
+      </section>
 
     </div>
   );
